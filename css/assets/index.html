@@ -1,38 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Profile Card </title>
-    <link rel="stylesheet" href="styles/style.css">
+  <meta charset="UTF-8">
+  <title>CSS Box Model Assignment</title>
+  <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <div class="Card">
-        <img class="container-2" src="https://i.pinimg.com/736x/8e/12/63/8e1263a326ba6652c95edfaa8fb6727c.jpg" width="120px" alt="profile image" id="profile-image">
-        <h2>Arshia Noonari</h2>
-        <h4> web developer</h4>
-        <p>
-        passionate about web development and building modern, responsive websites using HTML,CSS, and javascript.
-        Currently learning fronted development and improving coding skills through projects.
-        </p>
-        <div class="info-box">
-            <div>
-                <h3>Rating</h3>
-                <p>⭐⭐⭐⭐⭐</p>
-            </div>
-            <div>
-                <h3>Earned</h3>
-                <p>12+ Projects</p>
-            </div>
-            <div>
-                <h3>Rate</h3>
-                <p>4.8/5</p>
-            </div>
-            
 
-        </div>
-        <a class="btn" href="#">View Profile</a>
+  <h1>CSS Box Model Assignment</h1>
 
+  <!-- PART 1 -->
+  <h2>Part 1: Box-Sizing Comparison</h2>
+
+  <div class="part1-container">
+
+    <div class="box content-box">
+      <h3>Content Box</h3>
+      <p>This box uses content-box.</p>
     </div>
+
+    <div class="box border-box">
+      <h3>Border Box</h3>
+      <p>This box uses border-box.</p>
+    </div>
+
+  </div>
+
+  <!-- PART 3 -->
+  <h2>Part 3: Product Card</h2>
+
+  <div class="product-card">
+
+    <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff" alt="Product">
+
+    <h3>Stylish Sneakers</h3>
+    <h4>PKR:6000</h4>
+
+    <p>
+      Comfortable and stylish sneakers perfect for daily wear and sports activities.
+    </p>
+
+    <button>Buy Now</button>
+
+  </div>
+
+  <!-- PART 4 -->
+  <h2>Part 4: Bonus Challenge</h2>
+
+  <h3>Experiment 1 (content-box)</h3>
+
+  <div class="container">
+
+    <div class="child content-child">Box 1</div>
+    <div class="child content-child">Box 2</div>
+
+  </div>
+
+  <h3>Experiment 2 (border-box)</h3>
+
+  <div class="container">
+
+    <div class="child border-child">Box 1</div>
+    <div class="child border-child">Box 2</div>
+
+  </div>
+
 </body>
 </html>
